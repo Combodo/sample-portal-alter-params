@@ -1,15 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.0">
-  <constants>
-  </constants>
-  <classes>
-  </classes>
-  <menus>
-  </menus>
-  <user_rights>
-    <groups>
-    </groups>
-    <profiles>
-    </profiles>
-  </user_rights>
+<itop_design xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" version="1.3">
+    <module_designs>
+        <module_design id="itop-portal" xsi:type="portal">
+            <bricks>
+                <brick id="user-profile">
+                    <rank _delta="redefine">1</rank>
+                </brick>
+                <brick id="communication">
+                    <rank _delta="redefine">2</rank>
+                </brick>
+                <brick id="services" _delta="delete" />
+                <brick id="faq" _delta="delete" />
+                <brick id="edit-my-tickets-for-portal-user">
+                    <width _delta="redefine">6</width>
+                </brick>
+                <brick id="create-user-request">
+                    <width _delta="redefine">6</width>
+                </brick>
+            </bricks>
+        </module_design>
+    </module_designs>
 </itop_design>
