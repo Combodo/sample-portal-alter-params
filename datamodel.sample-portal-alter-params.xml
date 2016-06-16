@@ -3,19 +3,13 @@
     <module_designs>
         <module_design id="itop-portal" xsi:type="portal">
             <bricks>
-                <brick id="user-profile">
-                    <rank _delta="redefine">1</rank>
-                </brick>
-                <brick id="communication">
-                    <rank _delta="redefine">2</rank>
-                </brick>
-                <brick id="services" _delta="delete" />
-                <brick id="faq" _delta="delete" />
-                <brick id="edit-my-tickets-for-portal-user">
-                    <width _delta="redefine">6</width>
-                </brick>
-                <brick id="create-user-request">
-                    <width _delta="redefine">6</width>
+                <brick id="services">
+					<visible>
+						<home _delta="define">false</home>
+					</visible>
+				</brick>
+                <brick id="ongoing-tickets-for-portal-user">
+					<width _delta="redefine">12</width>
                 </brick>
             </bricks>
         </module_design>

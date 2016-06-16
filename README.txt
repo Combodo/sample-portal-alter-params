@@ -1,0 +1,1 @@
+This sample shows how to modify some parameters of the portal configuration. It removes the "services" brick from home page (but is still on the navigation menu) and changes the "on going request" home page tile to fit the full width.
